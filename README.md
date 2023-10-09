@@ -18,9 +18,12 @@
    - sudo apt update && upgrade -y
 3. Before the next step know your interface name and your IP address range. You will be required to enter them following the next step.
 4. Install snort with the following command:
-   - sudo apt-get install snort -y
+   - sudo apt-get install snort -y<br />
    When promted enter you address range and interface name
 5. Now we need to edit the snort configuration file to add the ip range.
-   - sudo nano /etc/snort/snort.conf
+   - sudo nano /etc/snort/snort.conf<br />
     ![Image Alt Text](images/snort-conf.png)
-
+6. Note in the snort configuration file view the location for local rules that we will create in future steps:
+    ![Image Alt Text](images/snort-localrules.png)
+7. Test confirguation succesfullness with the following command:
+    - sudo snort -T -i enp3s0 -c /etc/snort/snort.conf
