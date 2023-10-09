@@ -13,5 +13,5 @@
 <p>Iso can be downloaded here: https://ubuntu.com/download/desktop</p>
 
 1. Create virtual machine with at least 2 CPU and 4 GB RAM
-   
+   ![Image Alt Text](images/2023-10-09_17-32.png)
 
