@@ -12,7 +12,7 @@
 <p>Note prerequisites: virtual box installed and a copy of Ubuntu 22.0.04 ISO</p>
 <p>Iso can be downloaded here: https://ubuntu.com/download/desktop</p>
 
-1. Create virtual machine with at least 2 CPU and 4 GB RAM
+1. Create virtual machine with at least 2 CPU and 4 GB RAM <br />
    ![Image Alt Text](images/2023-10-09_17-32.png)
 2. Update and Upgrade machine:
    - sudo apt update && upgrade -y
@@ -28,5 +28,21 @@
     ![Image Alt Text](images/snort-localrules.png)
 8. Test confirguation succesfullness with the following command:
     - sudo snort -T -i enp3s0 -c /etc/snort/snort.conf <br />
-    - This command will test your your configuration. If it is correct it will show succesfull confirguation
+    - This command will test your your configuration. If it is correct it will show succesfull confirguation<br />
+    
+<h2>Snort Rules/h2>
+<p>In this section we are going to create local rules to add to our snort rules. A very useful tool to use when creating snort rules is a tool called Snorpy. </p>
+
+1. We need to edit the local rules file to add files:
+    - sudo nano /etc/snort/rules/local.rules
+2.
+
+
+
+
+
+
+
+
+
 
