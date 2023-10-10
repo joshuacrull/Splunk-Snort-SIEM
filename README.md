@@ -24,6 +24,9 @@
    - sudo nano /etc/snort/snort.conf<br />
     ![Image Alt Text](images/snort-conf.png)
 6. Note in the snort configuration file view the location for local rules that we will create in future steps:
+   - the location of the local rules is: /etc/snort/rules/local.rules
     ![Image Alt Text](images/snort-localrules.png)
-7. Test confirguation succesfullness with the following command:
-    - sudo snort -T -i enp3s0 -c /etc/snort/snort.conf
+8. Test confirguation succesfullness with the following command:
+    - sudo snort -T -i enp3s0 -c /etc/snort/snort.conf <br />
+    - This command will test your your configuration. If it is correct it will show succesfull confirguation
+
