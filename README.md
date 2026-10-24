@@ -5,7 +5,8 @@
 
 <h2>Lab Description:</h2>
 <p>In this Repository you will find instructions on how to deploy a Splunk SIEM with logs forwarded from a Snort IDS. In walk through lab you will find each step to configure the enviroment.</p>><br />
- ![Image Alt Text](images/snort-completetion.png)
+
+  ![Image Alt Text](images/snort-completetion.png)
 
 <h2>Installation and configuration of Snort</h2>
 <p>In this section we will deploy a linux machine that properly runs Snort</p><br />
